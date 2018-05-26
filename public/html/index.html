@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+<div class="container col-sm-6 col-md-6" style="position:absolute;top:30%;left:24%;">
+  
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">login</div>
+    <div class="panel-body">
+      <form action = "http://127.0.0.1:9005/process_login" method = "POST">
+   	<div class="form-group">
+    		<label for="username">Username:</label>
+    		<input type = "text" class="form-control" name = "usrname">
+  	</div>
+  	<div class="form-group">
+    		<label for="pwd">Password:</label>
+    		<input type = "password" class="form-control" name = "passwd">
+  	</div>
+   	<button type="submit" class="btn btn-danger" value="submit">Submit</button>
+      </form>
+   </body>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
